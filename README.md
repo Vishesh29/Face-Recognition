@@ -11,6 +11,10 @@ onto only the first few principal components to obtain lower-dimensional data wh
 The dataset used in this example is a preprocessed excerpt of the “Labeled Faces in the Wild”, aka LFW:
 http://vis-www.cs.umass.edu/lfw/lfw-funneled.tgz
 
+# Viola-Jones Face Detection Technique, popularly known as Haar Cascades
+It is an Object Detection Algorithm used to identify faces in an image or a real time video. The algorithm uses 
+edge or line detection features proposed by Viola and Jones.
+
 The Principal Component Analysis algorithm was used to reduce the dimensions of the data we had; images having a number of pixel values.
 Then we used SVM for classification by finding the best estimator by hyperparameter tuning. We were able to classify the portraits and got an accuracy score of 0.89.
 
